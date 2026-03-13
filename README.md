@@ -32,7 +32,7 @@ ThreatLens is a custom-built, full-stack threat intelligence platform developed 
 
 ## Overview
 
-ThreatLens was built to demonstrate dual competency: **security tool development** and **applied threat intelligence analysis**. Unlike off-the-shelf OSINT tools, ThreatLens is architected from source — a production-grade React application with TypeScript, Tailwind CSS, and an integrated AI Analyst module that classifies findings and generates remediation-ready reports.
+ThreatLens was built to demonstrate dual competency: **security tool development** and **applied threat intelligence analysis**. Unlike off-the-shelf OSINT tools, ThreatLens is architected from source — a production-grade React application with TypeScript, Tailwind CSS and an integrated AI Analyst module that classifies findings and generates remediation-ready reports.
 
 **What it does:**
 
@@ -217,6 +217,7 @@ alhost:8080`
 A scan was executed against `example.com` as a safe, authorised test target. ThreatLens returned the following results:
 
 ### Summary Dashboard
+
 <img width="1921" height="1046" alt="Dashboard" src="https://github.com/user-attachments/assets/19414e65-83be-4cdb-ae1b-3eb833e77540" />
 
 | Metric | Value |
@@ -334,7 +335,6 @@ ThreatLens uses the following severity model:
 | **AI Domain Policy Review** | Integrated AI policy review before scanning unfamiliar targets |
 
 ---
-
 
 ##  Skills Demonstrated
 
