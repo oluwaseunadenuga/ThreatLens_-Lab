@@ -360,7 +360,6 @@ ThreatLens uses the following severity model:
 - Authorised, documented test methodology
 
 ---
-
 ## Disclaimer
 
 > This project was developed and tested in a **controlled, authorised lab environment** on Kali Linux for cybersecurity portfolio and educational purposes only.
