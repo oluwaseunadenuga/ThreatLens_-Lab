@@ -84,6 +84,7 @@ Before installing, ensure the following are available on your Kali Linux machine
 
 ---
 <img width="1038" height="563" alt="2a" src="https://github.com/user-attachments/assets/d39b66b6-627f-49e1-8089-c75c10021209" />
+<img width="1038" height="562" alt="2b" src="https://github.com/user-attachments/assets/91301843-1479-4482-892d-3c438882fd39" />
 
 ## Installation
 
@@ -167,7 +168,6 @@ VITE v5.4.19  ready in 977 ms
 
 ### Step 5 — Open in Browser
 
-<img width="1038" height="562" alt="2b" src="https://github.com/user-attachments/assets/91301843-1479-4482-892d-3c438882fd39" />
 
 Navigate to:
 
