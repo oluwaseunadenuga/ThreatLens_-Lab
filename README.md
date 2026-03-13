@@ -217,6 +217,7 @@ alhost:8080`
 A scan was executed against `example.com` as a safe, authorised test target. ThreatLens returned the following results:
 
 ### Summary Dashboard
+<img width="1921" height="1046" alt="Dashboard" src="https://github.com/user-attachments/assets/19414e65-83be-4cdb-ae1b-3eb833e77540" />
 
 | Metric | Value |
 |---|---|
@@ -332,6 +333,8 @@ ThreatLens uses the following severity model:
 | **AI Domain Policy Review** | Integrated AI policy review before scanning unfamiliar targets |
 
 ---
+<img width="1893" height="1011" alt="Attack Surface2" src="https://github.com/user-attachments/assets/09727d8f-74ef-4c09-8a61-9a011e4077aa" />
+<img width="1922" height="945" alt="Security Header" src="https://github.com/user-attachments/assets/16787729-0430-46f7-ac29-f10364a9d500" />
 
 ##  Skills Demonstrated
 
