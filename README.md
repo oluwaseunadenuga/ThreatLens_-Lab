@@ -245,11 +245,10 @@ A scan was executed against `example.com` as a safe, authorised test target. Thr
 <img width="1918" height="1079" alt="ThreatLens5" src="https://github.com/user-attachments/assets/48c0b926-3754-4729-9cb6-c1c31fd30d4d" />
 
 The **AI Analyst** module returned 3 structured findings, all under the **Security Headers** category.
-
----
 <img width="1893" height="1011" alt="Attack Surface2" src="https://github.com/user-attachments/assets/09727d8f-74ef-4c09-8a61-9a011e4077aa" />
 <img width="1922" height="945" alt="Security Header" src="https://github.com/user-attachments/assets/16787729-0430-46f7-ac29-f10364a9d500" />
 
+---
 ### HIGH — Missing Content-Security-Policy Header
 
 **Category:** Security Headers
