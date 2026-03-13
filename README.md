@@ -88,8 +88,6 @@ Before installing, ensure the following are available on your Kali Linux machine
 
 ### Step 1 — Clone or Download the Repository
 
-<img width="1038" height="563" alt="2a" src="https://github.com/user-attachments/assets/d39b66b6-627f-49e1-8089-c75c10021209" />
-
 If cloning from GitHub:
 
 ```bash
@@ -143,6 +141,7 @@ bun install v1.3.10 (30e609e0)
 538 packages installed [11.64s]
 Blocked 2 postinstalls. Run `bun pm untrusted` for details.
 ```
+<img width="1038" height="563" alt="2a" src="https://github.com/user-attachments/assets/d39b66b6-627f-49e1-8089-c75c10021209" />
 
 > If you see a Browserslist warning (`browsers data is 9 months old`), this is non-blocking. Optionally run `npx update-browserslist-db@latest` to resolve it.
 
