@@ -86,7 +86,7 @@ Before installing, ensure the following are available on your Kali Linux machine
 
 ## Installation
 
-### Step 1 — Clone or Download the Repository
+### Step 1 - Clone or Download the Repository
 
 If cloning from GitHub:
 
@@ -101,7 +101,7 @@ Or if downloaded as a ZIP, extract and navigate in:
 cd ~/Downloads/aegis-intel-scan-main
 ```
 
-### Step 2 — Confirm Project Structure
+### Step 2 - Confirm Project Structure
 
 Verify `package.json` is present before installing:
 
@@ -110,7 +110,7 @@ ls package.json
 # Expected output: package.json
 ```
 
-### Step 3 — Install Dependencies
+### Step 3 - Install Dependencies
 
 Run `bun install` to fetch all 538 packages:
 
@@ -149,7 +149,7 @@ Blocked 2 postinstalls. Run `bun pm untrusted` for details.
 
 ## Launching the Platform
 
-### Step 4 — Start the Development Server
+### Step 4 - Start the Development Server
 
 ```bash
 bun run dev
@@ -166,7 +166,7 @@ VITE v5.4.19  ready in 977 ms
 ```
 <img width="1038" height="562" alt="2b" src="https://github.com/user-attachments/assets/91301843-1479-4482-892d-3c438882fd39" />
 
-### Step 5 — Open in Browser
+### Step 5 - Open in Browser
 
 
 Navigate to:
@@ -200,15 +200,11 @@ The ThreatLens UI provides the following navigation:
 1. Navigate to `http://loc<img width="1919" height="1089" alt="ThreatLens1" src="https://github.com/user-attachments/assets/d50b5f23-7b7b-4fd4-8a3e-e281cae1cdc9" />
 alhost:8080`
 
-3. Enter a domain in the input field — e.g. `example.com`
-4. Check the **Safe-Scanning Policy** checkbox to confirm you have authorisation to scan the target
-5. Click **Scan**
-6. Wait for the scan to complete — status will update to `completed.`
-7. Review results across the **Findings**, **Attack Surface**, **AI Report**, and **Raw Data** tabs
-
-> Scans are **rate-limited to 10 per day**. The dashboard displays your current usage (e.g. `2/10 scans used today`).
-
----
+2. Enter a domain in the input field — e.g. `example.com`
+3. Check the **Safe-Scanning Policy** checkbox to confirm you have authorisation to scan the target
+4. Click **Scan**
+5. Wait for the scan to complete — status will update to `completed.`
+6. Review results across the **Findings**, **Attack Surface**, **AI Report**, and **Raw Data** tabs
 
 ## Scan Results — example.com
 
