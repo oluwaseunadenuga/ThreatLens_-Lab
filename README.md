@@ -71,7 +71,7 @@ ThreatLens was built to demonstrate dual competency: **security tool development
 
 Before installing, ensure the following are available on your Kali Linux machine:
 
-- **Bun** — JavaScript runtime and package manager
+- **Bun** - JavaScript runtime and package manager
   ```bash
   curl -fsSL https://bun.sh/install | bash
   ```
