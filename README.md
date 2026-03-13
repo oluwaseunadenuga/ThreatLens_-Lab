@@ -83,6 +83,7 @@ Before installing, ensure the following are available on your Kali Linux machine
 - A modern browser (Firefox on Kali works out of the box)
 
 ---
+<img width="1038" height="563" alt="2a" src="https://github.com/user-attachments/assets/d39b66b6-627f-49e1-8089-c75c10021209" />
 
 ## Installation
 
@@ -166,6 +167,8 @@ VITE v5.4.19  ready in 977 ms
 
 ### Step 5 — Open in Browser
 
+<img width="1038" height="562" alt="2b" src="https://github.com/user-attachments/assets/91301843-1479-4482-892d-3c438882fd39" />
+
 Navigate to:
 
 ```
@@ -180,6 +183,8 @@ The ThreatLens interface will load, displaying the domain input field, Safe-Scan
 
 ### Interface Overview
 
+<img width="1919" height="1089" alt="ThreatLens1" src="https://github.com/user-attachments/assets/2b69642a-e2a5-43ed-9573-3002ed5f0d90" />
+
 The ThreatLens UI provides the following navigation:
 
 | Tab | Description |
@@ -192,12 +197,14 @@ The ThreatLens UI provides the following navigation:
 
 ### Running a Scan
 
-1. Navigate to `http://localhost:8080`
-2. Enter a domain in the input field — e.g. `example.com`
-3. Check the **Safe-Scanning Policy** checkbox to confirm you have authorisation to scan the target
-4. Click **Scan**
-5. Wait for the scan to complete — status will update to `completed.`
-6. Review results across the **Findings**, **Attack Surface**, **AI Report**, and **Raw Data** tabs
+1. Navigate to `http://loc<img width="1919" height="1089" alt="ThreatLens1" src="https://github.com/user-attachments/assets/d50b5f23-7b7b-4fd4-8a3e-e281cae1cdc9" />
+alhost:8080`
+
+3. Enter a domain in the input field — e.g. `example.com`
+4. Check the **Safe-Scanning Policy** checkbox to confirm you have authorisation to scan the target
+5. Click **Scan**
+6. Wait for the scan to complete — status will update to `completed.`
+7. Review results across the **Findings**, **Attack Surface**, **AI Report**, and **Raw Data** tabs
 
 > Scans are **rate-limited to 10 per day**. The dashboard displays your current usage (e.g. `2/10 scans used today`).
 
