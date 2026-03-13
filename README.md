@@ -212,6 +212,8 @@ alhost:8080`
 
 ## Scan Results — example.com
 
+<img width="1911" height="1070" alt="ThreatLens3" src="https://github.com/user-attachments/assets/9f2f8d62-01f7-4257-92ac-b9db5a8e69de" />
+
 A scan was executed against `example.com` as a safe, authorised test target. ThreatLens returned the following results:
 
 ### Summary Dashboard
@@ -238,6 +240,8 @@ A scan was executed against `example.com` as a safe, authorised test target. Thr
 ---
 
 ## Key Findings
+
+<img width="1918" height="1079" alt="ThreatLens5" src="https://github.com/user-attachments/assets/48c0b926-3754-4729-9cb6-c1c31fd30d4d" />
 
 The **AI Analyst** module returned 3 structured findings, all under the **Security Headers** category.
 
