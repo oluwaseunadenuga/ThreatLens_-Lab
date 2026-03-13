@@ -1,4 +1,4 @@
-# 🔍 ThreatLens — Threat Intelligence & Attack Surface Mapping Platform
+# ThreatLens - Threat Intelligence & Attack Surface Mapping Platform
 
 [![Type](https://img.shields.io/badge/Type-Threat%20Intelligence%20Platform-blueviolet?style=flat-square)](https://github.com)
 [![Framework](https://img.shields.io/badge/Framework-React%2018%20%2B%20TypeScript-blue?style=flat-square)](https://react.dev)
@@ -13,7 +13,7 @@ ThreatLens is a custom-built, full-stack threat intelligence platform developed 
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#-overview)
 - [Tech Stack](#-tech-stack)
@@ -30,7 +30,7 @@ ThreatLens is a custom-built, full-stack threat intelligence platform developed 
 
 ---
 
-## 🧠 Overview
+## Overview
 
 ThreatLens was built to demonstrate dual competency: **security tool development** and **applied threat intelligence analysis**. Unlike off-the-shelf OSINT tools, ThreatLens is architected from source — a production-grade React application with TypeScript, Tailwind CSS, and an integrated AI Analyst module that classifies findings and generates remediation-ready reports.
 
@@ -45,11 +45,11 @@ ThreatLens was built to demonstrate dual competency: **security tool development
 - Exports full PDF reports and exposes raw JSON scan data
 - Enforces a Safe-Scanning Policy — users must confirm authorisation before any scan initiates
 
-> ⚠️ All scans in this portfolio were conducted against `example.com` — a known safe, IANA-reserved test target — in an authorised, controlled Kali Linux lab environment.
+> All scans in this portfolio were conducted against `example.com` — a known safe, IANA-reserved test target — in an authorised, controlled Kali Linux lab environment.
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 | Component | Details |
 |---|---|
@@ -67,7 +67,7 @@ ThreatLens was built to demonstrate dual competency: **security tool development
 
 ---
 
-## ✅ Prerequisites
+## Prerequisites
 
 Before installing, ensure the following are available on your Kali Linux machine:
 
@@ -84,7 +84,7 @@ Before installing, ensure the following are available on your Kali Linux machine
 
 ---
 
-## 📦 Installation
+## Installation
 
 ### Step 1 — Clone or Download the Repository
 
@@ -142,11 +142,11 @@ bun install v1.3.10 (30e609e0)
 Blocked 2 postinstalls. Run `bun pm untrusted` for details.
 ```
 
-> 💡 If you see a Browserslist warning (`browsers data is 9 months old`), this is non-blocking. Optionally run `npx update-browserslist-db@latest` to resolve it.
+> If you see a Browserslist warning (`browsers data is 9 months old`), this is non-blocking. Optionally run `npx update-browserslist-db@latest` to resolve it.
 
 ---
 
-## 🚀 Launching the Platform
+## Launching the Platform
 
 ### Step 4 — Start the Development Server
 
@@ -172,11 +172,11 @@ Navigate to:
 http://localhost:8080
 ```
 
-The ThreatLens interface will load — showing the domain input field, Safe-Scanning Policy checkbox, and daily scan counter.
+The ThreatLens interface will load, displaying the domain input field, Safe-Scanning Policy checkbox, and daily scan counter.
 
 ---
 
-## 🖥 Using ThreatLens
+## Using ThreatLens
 
 ### Interface Overview
 
@@ -196,14 +196,14 @@ The ThreatLens UI provides the following navigation:
 2. Enter a domain in the input field — e.g. `example.com`
 3. Check the **Safe-Scanning Policy** checkbox to confirm you have authorisation to scan the target
 4. Click **Scan**
-5. Wait for the scan to complete — status will update to `completed`
+5. Wait for the scan to complete — status will update to `completed.`
 6. Review results across the **Findings**, **Attack Surface**, **AI Report**, and **Raw Data** tabs
 
-> ⚠️ Scans are **rate-limited to 10 per day**. The dashboard displays your current usage (e.g. `2/10 scans used today`).
+> Scans are **rate-limited to 10 per day**. The dashboard displays your current usage (e.g. `2/10 scans used today`).
 
 ---
 
-## 📊 Scan Results — example.com
+## Scan Results — example.com
 
 A scan was executed against `example.com` as a safe, authorised test target. ThreatLens returned the following results:
 
@@ -230,13 +230,13 @@ A scan was executed against `example.com` as a safe, authorised test target. Thr
 
 ---
 
-## 🔎 Key Findings
+## Key Findings
 
 The **AI Analyst** module returned 3 structured findings, all under the **Security Headers** category.
 
 ---
 
-### 🟠 HIGH — Missing Content-Security-Policy Header
+### HIGH — Missing Content-Security-Policy Header
 
 **Category:** Security Headers
 
@@ -253,12 +253,12 @@ Deploy in `Content-Security-Policy-Report-Only` mode first to identify violation
 
 ---
 
-### 🟡 MEDIUM — Missing HSTS Header
+### MEDIUM — Missing HSTS Header
 
 **Category:** Security Headers
 
 **Description:**
-HTTP Strict Transport Security (HSTS) is not enabled. Without this header, browsers do not enforce HTTPS-only connections, leaving users vulnerable to SSL stripping and protocol downgrade attacks. An attacker with network access can silently intercept traffic that should be encrypted.
+HTTP Strict Transport Security (HSTS) is not enabled. Without this header, browsers do not enforce HTTPS-only connections, leaving users vulnerable to SSL stripping and protocol downgrade attacks. An attacker with network access can silently intercept encrypted traffic.
 
 **Attack Vectors:** SSL Stripping · Protocol Downgrade
 
@@ -270,7 +270,7 @@ After confirming HTTPS stability, submit to the HSTS preload list at [hstspreloa
 
 ---
 
-### 🟡 MEDIUM — Missing X-Frame-Options Header
+### MEDIUM — Missing X-Frame-Options Header
 
 **Category:** Security Headers
 
@@ -291,7 +291,7 @@ Validate the full header configuration at [securityheaders.com](https://security
 
 ---
 
-## 🎯 Risk Severity Classification
+## Risk Severity Classification
 
 ThreatLens uses the following severity model:
 
@@ -304,7 +304,7 @@ ThreatLens uses the following severity model:
 
 ---
 
-## ⚙️ Platform Features
+## Platform Features
 
 | Feature | Description |
 |---|---|
@@ -322,7 +322,7 @@ ThreatLens uses the following severity model:
 
 ---
 
-## 💡 Skills Demonstrated
+##  Skills Demonstrated
 
 ### Security Tool Development
 - Built a full-stack threat intelligence application from source on Kali Linux
@@ -349,7 +349,7 @@ ThreatLens uses the following severity model:
 
 ---
 
-## ⚖️ Disclaimer
+## Disclaimer
 
 > This project was developed and tested in a **controlled, authorised lab environment** on Kali Linux for cybersecurity portfolio and educational purposes only.
 >
@@ -363,7 +363,7 @@ ThreatLens uses the following severity model:
 
 ---
 
-## 👤 Author
+## Author
 
 **Oluwaseun Adenuga** — Cybersecurity Analyst & GRC Specialist
 
