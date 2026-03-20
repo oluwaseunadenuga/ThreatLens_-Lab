@@ -212,7 +212,7 @@ A scan was executed against `example.com` as a safe, authorised test target. Thr
 
 ### Summary Dashboard
 
-<img width="1921" height="1046" alt="Dashboard" src="https://github.com/user-attachments/assets/19414e65-83be-4cdb-ae1b-3eb833e77540" />
+<img width="1911" height="1070" alt="ThreatLens3" src="https://github.com/user-attachments/assets/9f2f8d62-01f7-4257-92ac-b9db5a8e69de" />
 
 | Metric | Value |
 |---|---|
@@ -262,11 +262,12 @@ Deploy in `Content-Security-Policy-Report-Only` mode first to identify violation
 
 ---
 
-### MEDIUM — Missing HSTS Header
+### MEDIUM - Missing HSTS Header
 
 **Category:** Security Headers
 
 **Description:**
+
 HTTP Strict Transport Security (HSTS) is not enabled. Without this header, browsers do not enforce HTTPS-only connections, leaving users vulnerable to SSL stripping and protocol downgrade attacks. An attacker with network access can silently intercept encrypted traffic.
 
 **Attack Vectors:** SSL Stripping · Protocol Downgrade
@@ -346,7 +347,7 @@ ThreatLens uses the following severity model:
 - Risk scoring and surface size classification
 
 ### Vulnerability Analysis
-- CSP, HSTS, and clickjacking attack vector identification
+- CSP, HSTS and clickjacking attack vector identification
 - Risk severity triage and structured finding output
 - AI-assisted analysis integration with human-readable reporting
 
