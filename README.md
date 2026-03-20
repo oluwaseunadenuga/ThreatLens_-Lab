@@ -45,7 +45,7 @@ ThreatLens was built to demonstrate dual competency: **security tool development
 - Exports full PDF reports and exposes raw JSON scan data
 - Enforces a Safe-Scanning Policy — users must confirm authorisation before any scan initiates
 
-> All scans in this portfolio were conducted against `example.com` — a known safe, IANA-reserved test target — in an authorised, controlled Kali Linux lab environment.
+> All scans in this portfolio were conducted against `example.com`- a known safe, IANA-reserved test target in an authorised, controlled Kali Linux lab environment.
 
 ---
 
