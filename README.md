@@ -228,7 +228,7 @@ A scan was executed against `example.com` as a safe, authorised test target. Thr
 
 | Field | Value |
 |---|---|
-| **Registrar** | RESERVED — Internet Assigned Numbers Authority |
+| **Registrar** | RESERVED - Internet Assigned Numbers Authority |
 | **Hosting Provider** | Cloudflare, Inc. |
 | **ASN** | AS13335 Cloudflare, Inc. |
 | **Surface Size** | Small |
