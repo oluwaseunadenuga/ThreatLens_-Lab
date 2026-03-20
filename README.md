@@ -204,9 +204,7 @@ The ThreatLens UI provides the following navigation:
 5. Wait for the scan to complete — status will update to `completed.`
 6. Review results across the **Findings**, **Attack Surface**, **AI Report**, and **Raw Data** tabs
 
-## Scan Results — example.com
-
-<img width="1911" height="1070" alt="ThreatLens3" src="https://github.com/user-attachments/assets/9f2f8d62-01f7-4257-92ac-b9db5a8e69de" />
+## Scan Results - example.com
 
 A scan was executed against `example.com` as a safe, authorised test target. ThreatLens returned the following results:
 
