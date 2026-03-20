@@ -197,10 +197,8 @@ The ThreatLens UI provides the following navigation:
 
 ### Running a Scan
 
-1. Navigate to `http://loc<img width="1919" height="1089" alt="ThreatLens1" src="https://github.com/user-attachments/assets/d50b5f23-7b7b-4fd4-8a3e-e281cae1cdc9" />
-alhost:8080`
-
-2. Enter a domain in the input field — e.g. `example.com`
+1. Navigate to ` http://localhost:8080/`
+2. Enter a domain in the input field - e.g. `example.com`
 3. Check the **Safe-Scanning Policy** checkbox to confirm you have authorisation to scan the target
 4. Click **Scan**
 5. Wait for the scan to complete — status will update to `completed.`
