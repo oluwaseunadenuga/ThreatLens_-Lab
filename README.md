@@ -285,6 +285,7 @@ After confirming HTTPS stability, submit to the HSTS preload list at [hstspreloa
 **Category:** Security Headers
 
 **Description:**
+
 The site can be embedded in iframes, enabling clickjacking attacks. An attacker can load the target site invisibly inside a malicious page — tricking users into performing unintended actions such as authorising transactions, changing account settings, or submitting sensitive forms.
 
 **Attack Vectors:** Clickjacking
